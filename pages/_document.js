@@ -1,0 +1,27 @@
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Link from 'next/link';
+
+class MyDocument extends Document {
+    render() {
+        return (
+            <Html lang="en">
+                <Head>
+                    <link rel="preconnect" href="/public/fonts/IBMPlexSans-Bold.tff" as="font" crossOrigin="anonymous" />
+                    <link rel="preconnect" href="/public/fonts/IBMPlexSans-Regular.ttf" as="font" crossOrigin="anonymous" /><link rel="preconnect" href="/public/fonts/IBMPlexSans-Semi-Bold.ttf" as="font" crossOrigin="anonymous" />
+
+                </Head>
+                <body>
+                    <Main>
+
+                    </Main>
+                    <NextScript />
+                </body>
+
+
+
+            </Html>
+        );
+    }
+}
+
+export default MyDocument;
